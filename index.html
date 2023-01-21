@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Silvina | Currículum Vitae" />
+    <meta property="og:type" content="Web" />
+    <meta property="og:url" content=" " />
+    <meta property="og:image" content="foto-cv.jpg" />
+    <meta property="og:description" content="Proyecto Ticmas" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+    <title>Silvina | Currículum Vitae</title>
+</head>
+<body>
+    <header>
+        <img id="foto-cv" src="foto-cv.jpg" alt="Silvina" height="200px" width="200px"/>
+        <h1>Currículum Vitae</h1>
+        <h2>Datos personales</h2>
+        <p>Nombre: Silvina</p>
+        <p>Fecha de nacimiento: 5/1/1983</p>
+        <p>Residencia: Ciudad de Buenos Aires, Argentina</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#acerca">Acerca de mí</a></li>
+            <li><a href="#experiencia">Experiencia</a></li>
+            <li><a href="#educacion">Educación</a></li>
+            <li><a href="#certificaciones">Certificaciones</a></li>
+          </ul>
+    </nav>
+    <section id="acerca">
+        <h2>Acerca de mí</h2>
+        <p>Mi objetivo es incorporarme a una organización que me permita poner a disposición mis aptitudes, motivación y capacidad de aprendizaje para llevar a cabo una labor altamente productiva y crecer profesionalmente. <span id="menosAcerca"></span><span id="masAcerca">
+        <br>Mi experiencia en diferentes tareas administrativas y comerciales y mi sentido de la empatía me convierten en una persona versátil, fácilmente adaptable a diferentes desafíos y contextos.
+        <br>Tengo capacidad de liderazgo y me considero una persona ordenada y muy responsable, comprometida completamente con mis obligaciones.
+        <br>Actualmente me encuentro incursionando en el mundo de la Programación. Visualizando en mi afición por la informática y mis bases comerciales una gran oportunidad para transformar mi carrera, enfocandome en las necesidades del mundo actual y afinando mis interéses, sobre todo por el comercio electrónico.</span></P>
+        <button onclick="leerMas('menosAcerca', 'masAcerca', 'botonAcerca')" id="botonAcerca" class="botonTexto">Leer más</button>
+    </section>
+    <section id="experiencia">
+        <h2>Experiencia</h2>
+        <p><p class="itemsSecciones">Administrador comercial: Estudio / Grupo editorial-librerías</p>
+        2004-actualidad
+        <br>La empresa está conformada por un estudio contable/administrativo y un sector dedicado a la administración de una editorial infantil y librerías.
+        <br>Desarrollo tareas administrativas y comerciales en diferentes tiempos y por objetivos en los diferentes sectores de la empresa. Estas tareas son: <span id="menosExperiencia"></span><span id="masExperiencia">
+        <br><u>Editorial:</u>
+        <br>- Planificación y seguimiento de proyectos editoriales.
+        <br>- Compras y pago a proveedores. 
+        <br>- Armado de contratos con autores y liquidación de sus derechos.
+        <br>- Ventas y cobranzas.
+        <br>- Seguimiento de promotores.
+        <br>- Experiencia en ventas y relaciones internacionales en la Feria del Libro de Buenos Aires.
+        <br>- Encargada de ventas al Estado Nacional y al gobierno de la Ciudad de Buenos Aires, y de todos los trámites requeridos para tal fin ante otros organismos: CAL, DNDA, etc.
+        <br><u>Librerías:</u>
+        <br>- Dirección de los Encargados de locales de venta.
+        <br>- Responsable de la implementación y actualización del sistema de ventas (Fierro Gestión) e integración con plataformas de venta online (Mercadolibre y otros).
+        <br>- Dirección de inventarios de stock.
+        <br>- Compras y pago a proveedores.
+        <br>- Experiencia en ventas y atención al cliente online, y en locales de venta en temporada alta.
+        <br>- Experiencia en mudanzas de locales de venta.
+        <br><u>Estudio contable:</u>
+        <br>- Atención al cliente.
+        <br>- Organización administrativa.
+        <br>- Conciliación de cuentas (ventas, proveedores, bancarias) y registro de todo tipo de operaciones en el sistema de contabilidad (Tango Gestión).
+        <br>- Contabilidad de costos.
+        <br>- Trámites bancarios, ante escribanías, AFIP, ARBA, entre otros.
+        </span></p>
+        <button onclick="leerMas('menosExperiencia', 'masExperiencia', 'botonExperiencia')" id="botonExperiencia" class="botonTexto">Leer más</button>
+    </section>
+    <section id="educacion">
+        <h2>Educación</h2>
+        <p><p class="itemsSecciones">Universidad de Belgrano: Lic. Comercialización</p>
+        2001-2007
+        <br>Carrera de grado. Título universitario completo. <span id="menosEducacion"></span><span id="masEducacion">
+        <p class="itemsSecciones">Universidad de Buenos Aies: Contador Público</p>
+        2015-2018
+        <br>Mitad de carrera, incompleta: Homologación de materias de la Lic. en Comercialización y otras materias cursadas.
+        <p class="itemsSecciones">Colegio Santa María: Bachiller</p>
+        1997-2000
+        <br>Colegio secundario.
+        </span></p>
+        <button onclick="leerMas('menosEducacion', 'masEducacion', 'botonEducacion')" id="botonEducacion" class="botonTexto">Leer más</button>
+    </section>
+    <section id="certificaciones">
+        <h2>Certificaciones</h2>
+        <p><p class="itemsSecciones">Ticmas Academy: Introducción. Primeros pasos en Front-end.</p>
+        2022-actualidad
+        <p class="itemsSecciones">Argentina Programa: Programador Web Full-Stack Junior</p>
+        2022-actualidad
+        <br>#SeProgramar certificado. <span id="menosCertificaciones"></span><span id="masCertificaciones">
+        <p class="itemsSecciones">University of Cambridge: FCE</p>
+        1998
+        <br>First Certificate in English.
+        <p class="itemsSecciones">University of Cambridge: ICE</p>
+        2000
+        <br>International Certificate of Education.
+        </span></p>
+        <button onclick="leerMas('menosCertificaciones', 'masCertificaciones', 'botonCertificaciones')" id="botonCertificaciones" class="botonTexto">Leer más</button>
+    </section>
+    <script src="js/function.js"></script>
+    <footer>
+        Imagen de <a href="https://www.freepik.es/vector-gratis/fondo-geometrico-plano_14212552.htm#query=fondo%20web&position=1&from_view=keyword">Freepik</a>
+    </footer>
+</body>
+</html>

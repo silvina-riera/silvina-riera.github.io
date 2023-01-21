@@ -1,0 +1,68 @@
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+  background: url(fondo.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+
+header, section {
+  width: 800px;
+  overflow: auto;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-left: auto;
+  border-radius: 25px;
+  padding: 20px;
+  background: rgba(26, 83, 92, 0.8); 
+  color: white;
+}
+
+#foto-cv {
+  border-radius: 25px;
+  float: right;
+}
+
+
+nav ul {
+  width: 840px;
+  border-radius: 25px;
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(26, 83, 92); 
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  width: 178px;
+  display: block;
+  text-align: center;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: rgb(78, 205, 196); 
+}
+
+.itemsSecciones {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#masAcerca, #masExperiencia, #masEducacion, #masCertificaciones {
+  display: none;
+}
+
+.botonTexto {
+  float: right;
+}
