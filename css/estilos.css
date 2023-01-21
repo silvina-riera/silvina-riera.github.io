@@ -66,3 +66,24 @@ nav ul li a:hover {
 .botonTexto {
   float: right;
 }
+
+@media screen and (max-width: 400px) and (orientation:portrait) {
+  
+  header, section {
+    width: fit-content;
+  }
+
+  #foto-cv {
+    float: left;
+  }
+
+  nav ul {
+    width: fit-content;
+  }
+
+  nav ul li {
+    float: none;
+    display: block;
+  }
+
+}
